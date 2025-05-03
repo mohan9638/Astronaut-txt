@@ -63,12 +63,12 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="http://t.me/Astronaut_OFFICIAL_pro_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
+            InlineKeyboardButton(text="📞 Contact", url="http://t.me/Astronaut_OFFICIAL_pro_bot"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+YaiDzDN70r1mNWY1"),
         ],
     ]
 )
@@ -395,7 +395,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[𝄟⃝‌🐬🇳‌ɪᴋʜɪʟ𝄟⃝🐬](https://t.me/+MdZ2996M2G43MWFl)'
+        CR = '[ASTRONAUT OFFICIAL](https://t.me/+YaiDzDN70r1mNWY1)'
     else:
         CR = raw_text3
 
